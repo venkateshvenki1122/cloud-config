@@ -1,5 +1,4 @@
 spring:
-  
   datasource:
     url: jdbc:oracle:thin:@10.90.1.105:1521/DEV
     username: HR
@@ -11,10 +10,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
-
-
-  
 eureka:  
   client: 
     fetch-registry: true
